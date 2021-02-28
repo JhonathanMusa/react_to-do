@@ -1,2 +1,2 @@
 # vue-todo
-Simple todo with VueJS
+Simple to-do build with html and vuejs script

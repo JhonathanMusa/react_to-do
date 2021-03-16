@@ -1,15 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class List extends Component {
-  render() {
-    return (
-      <ul>
-        {this.props.list.map((element) => {
-          return <li key={element.key}>{element.text}</li>;
-        })}
-      </ul>
-    );
-  }
+export default function List(props) {
+  return (
+    <ul>
+      {props.list.map((element) => {
+        return <li key={element.key}>{element.text}</li>;
+      })}
+    </ul>
+  );
 }
-
-export default List

@@ -1,2 +1,2 @@
 # react_tp-do
-To-do Application build with React
+To-do Application built with React

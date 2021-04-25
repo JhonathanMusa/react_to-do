@@ -1,2 +1,2 @@
-# react_tp-do
+# react_to-do
 To-do Application built with React
